@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-family: "Montserrat", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.pageLoading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 70px;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  color: #888;
+}
+.pageLoading:before {
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  bottom: 15px;
+  background-image: url("./logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

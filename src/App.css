@@ -1,0 +1,26 @@
+body {
+  background-color: #f8f8f8;
+}
+* {
+  box-sizing: border-box;
+}
+.App {
+  color: #333;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.pageTransition > :nth-child(1) {
+  position: relative;
+  animation: pageTransition 0.5s;
+}
+@keyframes pageTransition {
+  from {
+    top: 50px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
