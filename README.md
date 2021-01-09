@@ -5,7 +5,7 @@
   - [Arduino programming language](https://www.arduino.cc/reference/en/) for ESP32.
   - Arduino Code for controlling bulb using touch pin or from app [Code]()
   - HTML, CSS, JavaScript, React, Cordova for App
-  - Firebase for realtime database
+  - Firebase realtime database
 
 ## Setup
 `yarn`<br/>
