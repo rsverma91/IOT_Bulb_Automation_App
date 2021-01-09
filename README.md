@@ -3,7 +3,7 @@
 # Device / Tech Stack used
   - ESP32 Dev board
   - [Arduino programming language](https://www.arduino.cc/reference/en/) for ESP32.
-  - Arduino Code for controlling bulb using touch pin or from app [Code]()
+  - Arduino Code for controlling bulb using touch pin or from app [Code](https://github.com/rsverma91/Arduino_Sample/blob/main/bulb_automation.ino)
   - HTML, CSS, JavaScript, React, Cordova for App
   - Firebase realtime database
 
